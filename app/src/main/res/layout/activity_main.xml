@@ -6,10 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnMain"
-        android:layout_margin="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SecondActivity 실행"/>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiosecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second avtivity"/>
+        <RadioButton
+            android:id="@+id/radiothird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="third avtivity"/>
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SecondActivity 실행"/>
+    </RadioGroup>
+
+
 </LinearLayout>
